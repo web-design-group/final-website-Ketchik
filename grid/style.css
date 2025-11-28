@@ -1,0 +1,265 @@
+body {
+	font-family: 'Jura', sans-serif;
+	font-size: 36px;
+	color: #1C1B17;
+	background: url('images/fon.jpg');
+	background-repeat: repeat;
+	margin: 0;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.header {
+	margin-top: 43px;
+	background: #161616;
+	padding: 5px 0;
+}
+
+.header_content {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 8px 15px;
+	transition: all 0.3s ease;
+}
+
+nav a:hover {
+	background-color: #636363;
+}
+
+.navigator {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 200px;
+	justify-content: center;
+	align-items: center;
+}
+
+.media {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons2 {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons2 img {
+	object-fit: cover;
+	box-shadow: 8px 8px 2px rgba(0,0,0,0.2);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	cursor: pointer;
+}
+
+.buttons2 img:hover {
+	transform: scale(1.15); 
+	box-shadow: 16px 16px 4px rgba(0,0,0,0.3); 
+	z-index: 10; 
+}
+
+.search {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	margin: 80px;
+}
+
+.search img {
+	box-shadow: 10px 10px 2px rgba(0,0,0,0.4);
+}
+
+.promo-input {
+	margin-top: -54px;
+	padding: 12px 15px;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    font-family: inherit;
+    transition: all 0.3s ease;
+}
+
+.categories {
+	display: grid;
+	grid-auto-flow: row;
+	gap: 15px;
+	justify-content: center;
+	margin: 80px;
+}
+
+e {
+	font-size: 36px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.catbutt {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 37px;
+	justify-content: center;
+	align-items: center;
+}
+
+.catbutt img {
+	object-fit: cover;
+	box-shadow: 8px 8px 2px rgba(0,0,0,0.2);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	cursor: pointer;
+}
+
+.catbutt img:hover {
+	transform: scale(1.05); 
+	box-shadow: 12px 12px 3px rgba(0,0,0,0.3); 
+	z-index: 10; 
+}
+
+d {
+	font-size: 46px;
+	color: #BE8E0A;
+	text-align: justify;
+}
+
+.more {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.more c:hover {
+	text-decoration: underline;
+	align-items: baseline;
+}
+
+.book {
+	display: grid;
+	grid-auto-flow: row;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.cat {display: grid;
+	grid-auto-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.name {
+	display: grid;
+	grid-auto-flow: row;
+	justify-content: center;
+	align-items: center;
+}
+
+c {
+	font-size: 22px;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+.tovar img {
+	object-fit: cover;
+	box-shadow: 8px 8px 2px rgba(0,0,0,0.2);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	cursor: pointer;
+}
+
+.card {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.inbin {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 200px;
+	margin-top:-45px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 90px;
+}
+
+b {
+	font-size: 22px;
+	color: #000000;
+	text-align: justify;
+}
+
+.inbin b:hover {
+	text-decoration: underline;
+	align-items: baseline;
+}
+
+p2 {
+	font-size: 18px;
+	color: #9A9A9A;
+	text-align: justify;
+}
+
+.footer {
+	height: 360px;
+	background: #161616;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_content {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 200px;
+	justify-content: center;
+	align-items: center;
+}
+
+.info_footer {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 100px;
+	justify-content: center;
+	align-items: center;
+} 
+
+.logo2 {
+	display: grid;
+	grid-auto-flow: row;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	margin: 40px;
+}
+
+.info_box {
+	display: grid;
+	grid-auto-flow: row;
+	gap: 7px;
+	justify-content: center;
+	align-items: center;
+}
