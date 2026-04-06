@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	
+	<title>GeekSpace — Catalog2</title>
+	<link rel="stylesheet" href="styles/tovar_style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header">
+    <div class="container"> 
+        <div class="row justify-content-between align-items-center">
+            <div class="col-auto">
+				<a class="logo" href="index.html">
+					<img src="images/logo.png" alt="Logo" class="logo__img">
+				</a>
+            </div>
+            <nav class="col-auto">
+                <a href="grid_catalog.html">ТОВАРЫ</a>
+                <a href="#">КАСТОМ</a>
+            </nav>
+            <div class="col-auto">
+                <img src="images/insta.png" alt="insta" height="50" class="icon_img"/>
+                <img src="images/yt.png" alt="yt" height="50" class="icon_img"/>
+                <img src="images/tg.png" alt="tg" height="50" class="icon_img"/>
+            </div>
+            <div class="col-auto">
+                <img src="images/basket.png" alt="basket" height="50" class="buttons"/>
+                <img src="images/home.png" alt="home" height="50" class="buttons"/>
+            </div>
+        </div>
+    </div>
+</header>
+	
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.html" style="color: #ebb565">Главная</a></li>
+			<li class="breadcrumb-item"><a href="grid_catalog.html" style="color: #ebb565">Каталог</a></li>
+			<li class="breadcrumb-item active" aria-current="page" style="color: #de481f">ПЕЧАТНАЯ ПРОДУКЦИЯ</li>
+		</ol>
+	</nav>
+	
+	<div class="search">
+		<div class="input-group flex-nowrap">
+			<span class="input-group-text" id="addon-wrapping"><img src="images/search_480px.png" alt="search" height="30"/></span>
+			<input type="text" class="form-control" placeholder="Введите название товара или ключевые слова" aria-label="Text" aria-describedby="addon-wrapping">
+		</div>
+	</div>
+	
+	<div class="cat">
+		<div class="container">
+			<div class="row justify-content-between align-items-center h-100">
+				<div class="col-auto">
+					<img src="images/comic.png"
+						 alt="comic" 
+						 class="icon_img2"/>
+				</div>
+				<div class="col-auto">
+					<img src="images/manga.png"
+						 alt="manga"
+						 class="icon_img2"/>
+				</div>
+				<div class="col-auto">
+					<img src="images/knigi.png"
+						 alt="knigi" 
+						 class="icon_img2"/>
+				</div>
+				<div class="col-auto">
+					<img src="images/artbook.png"
+						 alt="ab" 
+						 class="icon_img2"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<section class="pop">
+		<div class="popular">
+		<div class="container">
+			<div class="row">
+				<h2 style="color: white">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+			</div>
+			<div class="row justify-content-between align-items-center">
+				<div class="col-auto">
+					<div class="info_cart2 d-flex flex-column align-items-center text-center">
+						<img src="images/6155964445.webp" alt="tovar" height="200">
+						<p>Лунный Рыцарь</p>
+						<p>Комикс</p>
+						<p>1500 ₽</p>
+						<span>В КОРЗИНУ</span>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="info_cart2 d-flex flex-column align-items-center text-center">
+						<img src="images/7275596014.webp" alt="tovar" height="200">
+						<p>Поиграй со мной</p>
+						<p>Книга</p>
+						<p>1300 ₽</p>
+						<span>В КОРЗИНУ</span>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="info_cart2 d-flex flex-column align-items-center text-center">
+						<img src="images/7297360006.webp" alt="tovar" height="200">
+						<p>Иллюстрации Tai</p>
+						<p>Артбук</p>
+						<p>800 ₽</p>
+						<span>В КОРЗИНУ</span>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="info_cart2 d-flex flex-column align-items-center text-center">
+						<img src="images/7893652603.webp" alt="tovar" height="200">
+						<p>Райтеры. Том 1</p>
+						<p>Книга</p>
+						<p>2000 ₽</p>
+						<span>В КОРЗИНУ</span>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<div class="fltr">
+		<div class="dropdown-block">
+      <button id="filterToggle" class="filter-btn">
+        Переплет
+        <img src="images/arrow.png" class="filter-arrow" alt="arrow">
+      </button>
+
+      <ul id="filterMenu" class="filter-menu">
+          <li>Твердый переплет</li>
+          <li>Мягкий переплет</li>
+          <li data-reset="true">Сбросить</li>
+      </ul>
+  </div>
+	</div>
+	
+	<div class="tovariki">
+		<div class="asortiment">
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="col-auto">
+					<div class="carta" data-style="Твердый переплет">
+						<div class="info_cart d-flex flex-column align-items-center text-center">
+							<img src="images/6061148169.webp" alt="tovar" height="200">
+							<p>Dark Souls</p>
+							<p>Книга</p>
+							<p>1300 ₽</p>
+							<span>В КОРЗИНУ</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="carta" data-style="Мягкий переплет">
+						<div class="info_cart d-flex flex-column align-items-center text-center">
+							<img src="images/6778080241.webp" alt="tovar" height="200">
+							<p>The Last of Us</p>
+							<p>Комикс</p>
+							<p>1200 ₽</p>
+							<span>В КОРЗИНУ</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="carta" data-style="Твердый переплет">
+						<div class="info_cart d-flex flex-column align-items-center text-center">
+							<img src="images/7887017640.webp" alt="tovar" height="200">
+							<p>До встречи, король!</p>
+							<p>Книга</p>
+							<p>800 ₽</p>
+							<span>В КОРЗИНУ</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="carta" data-style="Мягкий переплет">
+						<div class="info_cart d-flex flex-column align-items-center text-center">
+							<img src="images/6012138846.webp" alt="tovar" height="200">
+							<p>Сейлор Мун</p>
+							<p>Манга</p>
+							<p>700 ₽</p>
+							<span>В КОРЗИНУ</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="tovariki">
+		<div class="asortiment">
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="col-auto">
+					<div class="carta" data-style="Мягкий переплет">
+						<div class="info_cart d-flex flex-column align-items-center text-center">
+							<img src="images/7602205533.webp" alt="tovar" height="200">
+							<p>Манга Нана</p>
+							<p>Манга</p>
+							<p>900 ₽</p>
+							<span>В КОРЗИНУ</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="carta" data-style="Твердый переплет">
+						<div class="info_cart d-flex flex-column align-items-center text-center">
+							<img src="images/8243424606.webp" alt="tovar" height="200">
+							<p>Храни её</p>
+							<p>Книга</p>
+							<p>850 ₽</p>
+							<span>В КОРЗИНУ</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="carta" data-style="Мягкий переплет">
+						<div class="info_cart d-flex flex-column align-items-center text-center">
+							<img src="images/7020848734.webp" alt="tovar" height="200">
+							<p>Sekiro</p>
+							<p>Артбук</p>
+							<p>1800 ₽</p>
+							<span>В КОРЗИНУ</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="carta" data-style="Твердый переплет">
+						<div class="info_cart d-flex flex-column align-items-center text-center">
+							<img src="images/8044363650.webp" alt="tovar" height="200">
+							<p>Невеста Ноября</p>
+							<p>Книга</p>
+							<p>1100 ₽</p>
+							<span>В КОРЗИНУ</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="footer">
+		<div class="container">
+		 <div class="footer_content">
+			<div class="row justify-content-between align-items-center">
+						<div class="col">
+										<div class="logo2 d-flex flex-column text-center">
+																										   <img src="images/logo2.png" alt="logo" height="200">
+																										   <img src="images/logo.png" alt="logo" height="70">
+										</div>
+						</div>
+						<div class="col">
+										<div class="info_footer d-flex flex-column text-center">
+																							   <a style="color: white" href="grid_catalog.html">ПРОДУКЦИЯ</a>
+																																				<a style="color: #9A9A9A">Комиксы</a>
+																																				<a style="color: #9A9A9A">Фигурки</a>
+																																				<a style="color: #9A9A9A">Игры</a>
+																																				<a style="color: #9A9A9A">Одежда</a>
+																																				<a style="color: #9A9A9A">Аксессуары</a>
+																																				<a style="color: #9A9A9A">Боксы</a>
+										</div>
+						</div>
+						<div class="col">
+										<div class="info_footer d-flex flex-column text-center">
+																							   <a style="color: white">МАГАЗИН</a>
+																													   <a style="color: #9A9A9A">Сертификаты</a>
+																													   <a style="color: #9A9A9A">Предзаказ</a>
+																													   <a style="color: #9A9A9A">Кастомизация</a>
+																													   <a style="color: #9A9A9A">Оплата и доставка</a>
+																													   <a style="color: white">ВАКАНСИИ</a>
+																													   <a style="color: white">ПРЕДЛОЖЕНИЯ</a>
+										</div>
+						</div>
+						<div class="col">
+										<div class="info_footer d-flex flex-column text-center">
+																							   <a style="color: white">НОВОСТИ</a>
+																													   <a style="color: #9A9A9A">YouTube</a>
+																													   <a style="color: #9A9A9A">Instagram</a>
+																													   <a style="color: #9A9A9A">Telegram</a>
+																													   <a style="color: white">г. Санкт-Петербург, ул. Улица, д. 1, лит А</a>
+																													   <a style="color: white">+7 (123) 456 78 90</a>
+																													   <a style="color: white">geekspace@mail.ru</a>
+										</div>
+						</div>
+			</div>
+		 </div>
+		</div>
+	</footer>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+const btn = document.querySelector(".filter-btn");
+const menu = document.querySelector(".filter-menu");
+
+btn.onclick = () => {
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+    btn.classList.toggle("filter-open");
+};
+</script>
+
+<script>
+document.querySelectorAll(".filter-menu li").forEach(item => {
+    item.addEventListener("click", () => {
+
+        if (item.dataset.reset === "true") {
+            document.querySelectorAll(".carta")
+                    .forEach(card => card.style.display = "block");
+            menu.style.display = "none";
+            return;
+        }
+
+        const style = item.textContent.trim();
+        document.querySelectorAll(".carta").forEach(card => {
+            card.style.display = card.dataset.style === style ? "block" : "none";
+        });
+
+        menu.style.display = "none";
+    });
+});
+</script>
+</body>
+</html>
